@@ -1,0 +1,67 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.ui {
+    padding: 8px 15px;
+}
+
+    .ui.primary.button,
+    .ui.primary.button:focus {
+        background: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+        font-weight: normal;
+        color: #2c2c2c;
+    }
+
+        .ui.primary.button:hover {
+            background: #c9c9c9;
+        }
+
+        .ui.primary.button:active {
+            background: #b5b5b5;
+        }
+
+    .ui.secondary.button,
+    .ui.secondary.button:focus {
+        background: #FFFFFF;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+        font-weight: normal;
+        color: #4d4d4d;
+    }
+
+        .ui.secondary.button:hover {
+            background: #dbdbdb;
+            color: #2c2c2c;
+        }
+
+        .ui.secondary.button:active {
+            background: #dbdbdb;
+            color: #2c2c2c;
+        }
